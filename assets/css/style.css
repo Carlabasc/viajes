@@ -1,0 +1,71 @@
+.contenedor-padre {
+  text-align: left;
+  float: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 70px;
+  align-items: center;
+}
+
+.cards {
+  text-align: left;
+  float: center;
+  display: flex;
+  justify-content: center;
+}
+
+.redes {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 50px;
+}
+
+.titulo {
+  float: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.carousel-item {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.h4 {
+  font-family: "Anton", sans-serif;
+}
+
+.body {
+  background-color: black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.icono {
+  align-items: center;
+  float: center;
+}
+
+.row {
+  align-items: center;
+  float: center;
+  display: flex;
+  justify-content: center;
+}
+
+.h5 {
+  text-align: left;
+}
+
+.color-white {
+  color: white;
+}
