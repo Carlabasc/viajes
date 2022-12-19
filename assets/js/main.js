@@ -1,24 +1,19 @@
 $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-  
-    $("#enviarcorreo").click(function () {
-      alert("El correo fue enviado correctamente...");
-    });
+  $('[data-toggle="tooltip"]').tooltip();
 
-})
+  $("#enviarcorreo").click(function () {
+    alert("El correo fue enviado correctamente...");
+  });
+});
 
-
-$(function(){
-$('.carousel').carousel({
-    interval: 2000
+$(function () {
+  $(".carousel").carousel({
+    interval: 2000,
   });
 
+  $("#myCarousel").on("slide.bs.carousel", function () {
+    // do something…
+  });
+});
 
-$('#myCarousel').on('slide.bs.carousel', function () {
-  // do something…
-})
-
-})
-
-
-window.scrollTo({ top: 900, behavior: 'smooth' })
+window.scrollTo({ top: 900, behavior: "smooth" });
