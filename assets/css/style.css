@@ -4,11 +4,11 @@
   display: flex;
   justify-content: center;
   padding-left: 70px;
-  align-items: center;
+  align-items: left;
 }
 
 .cards {
-  text-align: left;
+  text-align: center;
   float: center;
   display: flex;
   justify-content: center;
@@ -55,16 +55,12 @@ body {
   text-align: center;
   float: center;
   display: flex;
-  justify-content: center;
-  padding-left: 70px;
   align-items: center;
 }
 
 .h5 {
   text-align: center;
   font-size: 30px;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -75,4 +71,8 @@ body {
 }
 .carousel-inner {
   height: 100%;
+}
+
+.card-body {
+  text-align: left;
 }
