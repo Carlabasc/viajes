@@ -1,5 +1,5 @@
 .contenedor-padre {
-  text-align: left;
+  text-align: center;
   float: center;
   display: flex;
   justify-content: center;
@@ -12,6 +12,7 @@
   float: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .redes {
@@ -22,29 +23,24 @@
   padding-inline-start: 50px;
 }
 
-.titulo {
-  float: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  align-items: center;
-  padding-right: 150px;
-}
-
 .carousel-item {
   margin: 0%;
   padding: 0%;
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto !important;
 }
 
 .h4 {
   font-family: "Anton", sans-serif;
 }
 
-.body {
+section {
+  background-color: black;
+}
+
+body {
   background-color: black;
 }
 
@@ -56,18 +52,20 @@ html {
 }
 
 .row {
-  align-items: center;
+  text-align: center;
   float: center;
   display: flex;
   justify-content: center;
+  padding-left: 70px;
+  align-items: center;
 }
 
 .h5 {
-  text-align: left;
-}
-
-.color-white {
-  color: white;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel,
